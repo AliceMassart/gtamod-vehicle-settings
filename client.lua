@@ -1,6 +1,5 @@
 -- ============================================================
 -- Vehicle Settings : colors, speed multiplier, indestructible, reset
--- Open the menu with F1.
 -- Requires MenuV : '@menuv/menuv.lua' in the fxmanifest and `ensure menuv` first.
 -- ============================================================
 
@@ -414,9 +413,6 @@ end)
 menu:On('close', function()
     focusColor1, focusColor2 = false, false
 end)
-
--- Open with F1 (pick a key not used by another resource)
-menu:OpenWith('KEYBOARD', 'F1')
 
 -- ------------------------------------------------------------
 -- NEW VEHICLE DETECTION
